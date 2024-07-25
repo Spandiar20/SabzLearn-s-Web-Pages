@@ -1,16 +1,18 @@
 @import './variables.css';
+@import './fonts.css';
 
 /* Default Styles begin here */
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 52.5%;
 }
 
 body {
     line-height: 1.6;
     font-size: 1.6rem;
     font-family: var(--primary-font);
+    direction: rtl;
 }
 
 *,
@@ -22,7 +24,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--dark-color);
     transition: all 400ms ease;
 }
 
@@ -32,4 +34,31 @@ a:hover {
 
 i {
     user-select: none;
+}
+
+/*Default Styles end here*/
+
+.top-bar {
+    color: var(--dark-color);
+}
+
+.top-bar__link {
+    padding: 0 0.5rem;
+    font-family: var(--primary-font);
+}
+
+.top-bar__link {
+    padding: 0 0.3rem;
+}
+
+.top-bar__email,
+.top-bar__phone {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.top-bar__email-icon,
+.top-bar__phone-icon {
+    color: var(--primary-color);
 }
