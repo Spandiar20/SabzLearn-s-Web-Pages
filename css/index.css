@@ -5,12 +5,11 @@
 
 html {
     box-sizing: border-box;
-    font-size: 52.5%;
+    font-size: 56.5%;
 }
 
 body {
     line-height: 1.6;
-    font-size: 1.6rem;
     font-family: var(--primary-font);
     direction: rtl;
 }
@@ -44,7 +43,6 @@ i {
 
 .top-bar__link {
     padding: 0 0.5rem;
-    font-family: var(--primary-font);
 }
 
 .top-bar__link {
