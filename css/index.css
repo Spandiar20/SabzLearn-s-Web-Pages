@@ -37,6 +37,8 @@ i {
 
 /*Default Styles end here*/
 
+/* Nav-bar Styles begin here*/
+
 .top-bar {
     color: var(--dark-color);
 }
@@ -60,3 +62,8 @@ i {
 .top-bar__phone-icon {
     color: var(--primary-color);
 }
+
+/* Nav-bar Styles end here*/
+
+/* Header Styles begin here*/
+
