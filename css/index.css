@@ -67,3 +67,52 @@ i {
 
 /* Header Styles begin here*/
 
+.main-header__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--dark-color);
+}
+
+.main-header__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header__link-icon {
+    margin-right: 0.2rem;
+}
+
+/* Drop-drown Styles begin here */
+
+.main-header__dropdown {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0.2rem;
+    width: 14rem;
+    padding: 0.5rem 0.5rem;
+    z-index: 1;
+    border-bottom: 2px solid var(--primary-color);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-header__item:hover .main-header__dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 2rem;
+}
+
+.main-header_dropdown-link {
+    display: block;
+    padding: 0 1rem;
+    color: var(--dark-color);
+    font-size: 2rem;
+}
