@@ -116,3 +116,14 @@ i {
     color: var(--dark-color);
     font-size: 2rem;
 }
+
+/* Landing Section styling begins here */
+
+.landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/Blog/Memories.of.Murder.2003.1080p.BluRay.10bit.HEVC.6CH.MkvCage.SoftSub.AvaMovie.mkv_snapshot_02.02.18_[2024.06.20_16.01.38].jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: var(--white-color);
+    padding: 5% 1%;
+}

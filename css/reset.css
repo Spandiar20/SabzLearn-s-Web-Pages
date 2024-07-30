@@ -133,3 +133,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: black;
+}
