@@ -127,3 +127,35 @@ i {
     color: var(--white-color);
     padding: 5% 1%;
 }
+/* Landing Section styling begin here */
+
+/* Helper Classes styling begin here*/
+
+.title {
+    color: #444446;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 0.4rem;
+    height: 4rem;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    transform: rotate(10deg);
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 250%;
+    height: 40%;
+    background-color: rgba(43, 206, 86, 0.2);
+}
