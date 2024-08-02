@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="/Vendor/FontAwesome/all.min.css">
+    <link rel="stylesheet" href="Vendor/Swiper.Js/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -241,7 +242,7 @@
 
             <div class="courses-content px-16">
                 <div class="courses-content_container py-8 grid grid-cols-3 gap-x-4 gap-y-8">
-                    <div class="courses-content__card-item hover:translate-y-[-0.5rem] transition delay-100 shadow-xl rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                    <div class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
                         <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
 
                         <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
@@ -277,7 +278,7 @@
                         </button>
                     </div>
 
-                    <div class="courses-content__card-item hover:translate-y-[-0.5rem] transition delay-100 shadow-xl rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                    <div class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
                         <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
 
                         <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
@@ -313,7 +314,7 @@
                         </button>
                     </div>
 
-                    <div class="courses-content__card-item hover:translate-y-[-0.5rem] transition delay-100 shadow-xl rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                    <div class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
                         <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
 
                         <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
@@ -349,7 +350,7 @@
                         </button>
                     </div>
 
-                    <div class="courses-content__card-item hover:translate-y-[-0.5rem] transition delay-100 shadow-xl rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                    <div class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
                         <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
 
                         <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
@@ -385,7 +386,7 @@
                         </button>
                     </div>
 
-                    <div class="courses-content__card-item hover:translate-y-[-0.5rem] transition delay-100 shadow-xl rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                    <div class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
                         <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
 
                         <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
@@ -421,7 +422,7 @@
                         </button>
                     </div>
 
-                    <div class="courses-content__card-item hover:translate-y-[-0.5rem] transition delay-100 shadow-xl rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                    <div class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
                         <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
 
                         <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
@@ -463,13 +464,13 @@
 
     <!-- Courses section end -->
 
-    <!-- About Us section start -->
+    <!-- About-us section start -->
 
     <div class="about-us">
         <div class="about-us__container px-[3%]">
             <div class="about-us__header flex flex-col px-12 w-fit">
                 <span class="about-us__header-title title font-bold text-2xl w-fit">ما چه کمکی بهتون میکنیم؟</span>
-                <span class="about-us__header-text">از اونجایی که آکادمی آموزشی سبزلرن یک آکادمی خصوصی هست</span>
+                <span class="about-us__header-text text-lg">از اونجایی که آکادمی آموزشی سبزلرن یک آکادمی خصوصی هست</span>
             </div>
 
             <div class="about-us__cards grid grid-cols-2 gap-2 px-[5%] my-6">
@@ -519,9 +520,228 @@
             </div>
         </div>
     </div>
+
+    <!-- About-us section end -->
+
+    <!-- Popular-courses begin -->
+
+    <section class="popular-courses">
+        <div class="container p-[3%]">
+            <div class="popular-courses__header px-12">
+                <span class="popular-courses__title text-3xl title">محبوب ترین دوره ها</span>
+            </div>
+
+            <div class="popular-courses__slider my-12 px-[3%]">
+                <div class="container swiper">
+                    <div class="swiper-wrapper h-[25rem]">
+                        <div class="swiper-slide">
+                            <div class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                                <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
+                            
+                                <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
+                            
+                                <div class="card-item__first flex justify-between px-3">
+                                    <div class="card-item__teacher text-[#6c757d] flex flex-row-reverse items-center gap-2">
+                                        <span>رضا دولتی</span>
+                                        <i class="fas fa-person"></i>
+                                    </div>
+                            
+                                    <div class="card-item__rating flex items-center justify-center text-yellow-400">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="card-item__second flex justify-between items-center px-3">
+                                    <div class="card-item__student-count flex flex-row-reverse gap-1 items-center">
+                                        <span class="count">230</span>
+                                        <i class="fas fa-group"></i>
+                                    </div>
+                            
+                                    <span class="card-item__price text-lg">
+                                        390,000
+                                    </span>
+                                </div>
+                            
+                                <button
+                                    class="card-item__info-btn flex items-center justify-center gap-2 py-2 border-t-2 border-solid border-gray-100 hover:bg-gray-100 text-[#2bce56] text-lg transition">
+                                    <span>مشاهده اطلاعات</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div
+                                class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                                <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
+                            
+                                <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
+                            
+                                <div class="card-item__first flex justify-between px-3">
+                                    <div class="card-item__teacher text-[#6c757d] flex flex-row-reverse items-center gap-2">
+                                        <span>رضا دولتی</span>
+                                        <i class="fas fa-person"></i>
+                                    </div>
+                            
+                                    <div class="card-item__rating flex items-center justify-center text-yellow-400">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="card-item__second flex justify-between items-center px-3">
+                                    <div class="card-item__student-count flex flex-row-reverse gap-1 items-center">
+                                        <span class="count">230</span>
+                                        <i class="fas fa-group"></i>
+                                    </div>
+                            
+                                    <span class="card-item__price text-lg">
+                                        390,000
+                                    </span>
+                                </div>
+                            
+                                <button
+                                    class="card-item__info-btn flex items-center justify-center gap-2 py-2 border-t-2 border-solid border-gray-100 hover:bg-gray-100 text-[#2bce56] text-lg transition">
+                                    <span>مشاهده اطلاعات</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div
+                                class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                                <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
+                            
+                                <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
+                            
+                                <div class="card-item__first flex justify-between px-3">
+                                    <div class="card-item__teacher text-[#6c757d] flex flex-row-reverse items-center gap-2">
+                                        <span>رضا دولتی</span>
+                                        <i class="fas fa-person"></i>
+                                    </div>
+                            
+                                    <div class="card-item__rating flex items-center justify-center text-yellow-400">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="card-item__second flex justify-between items-center px-3">
+                                    <div class="card-item__student-count flex flex-row-reverse gap-1 items-center">
+                                        <span class="count">230</span>
+                                        <i class="fas fa-group"></i>
+                                    </div>
+                            
+                                    <span class="card-item__price text-lg">
+                                        390,000
+                                    </span>
+                                </div>
+                            
+                                <button
+                                    class="card-item__info-btn flex items-center justify-center gap-2 py-2 border-t-2 border-solid border-gray-100 hover:bg-gray-100 text-[#2bce56] text-lg transition">
+                                    <span>مشاهده اطلاعات</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div
+                                class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                                <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
+                            
+                                <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
+                            
+                                <div class="card-item__first flex justify-between px-3">
+                                    <div class="card-item__teacher text-[#6c757d] flex flex-row-reverse items-center gap-2">
+                                        <span>رضا دولتی</span>
+                                        <i class="fas fa-person"></i>
+                                    </div>
+                            
+                                    <div class="card-item__rating flex items-center justify-center text-yellow-400">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="card-item__second flex justify-between items-center px-3">
+                                    <div class="card-item__student-count flex flex-row-reverse gap-1 items-center">
+                                        <span class="count">230</span>
+                                        <i class="fas fa-group"></i>
+                                    </div>
+                            
+                                    <span class="card-item__price text-lg">
+                                        390,000
+                                    </span>
+                                </div>
+                            
+                                <button
+                                    class="card-item__info-btn flex items-center justify-center gap-2 py-2 border-t-2 border-solid border-gray-100 hover:bg-gray-100 text-[#2bce56] text-lg transition">
+                                    <span>مشاهده اطلاعات</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div
+                                class="courses-content__card-item transition delay-100 shadow-md rounded-xl w-[27rem] flex flex-col items-stretch gap-1 overflow-hidden">
+                                <img class="card-item__img" src="./Images/Courses/js.webp" alt="">
+                            
+                                <span class="card-item__title text-xl pt-1 px-2">دوره متخصص جاوا اسکریپت</span>
+                            
+                                <div class="card-item__first flex justify-between px-3">
+                                    <div class="card-item__teacher text-[#6c757d] flex flex-row-reverse items-center gap-2">
+                                        <span>رضا دولتی</span>
+                                        <i class="fas fa-person"></i>
+                                    </div>
+                            
+                                    <div class="card-item__rating flex items-center justify-center text-yellow-400">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="card-item__second flex justify-between items-center px-3">
+                                    <div class="card-item__student-count flex flex-row-reverse gap-1 items-center">
+                                        <span class="count">230</span>
+                                        <i class="fas fa-group"></i>
+                                    </div>
+                            
+                                    <span class="card-item__price text-lg">
+                                        390,000
+                                    </span>
+                                </div>
+                            
+                                <button
+                                    class="card-item__info-btn flex items-center justify-center gap-2 py-2 border-t-2 border-solid border-gray-100 hover:bg-gray-100 text-[#2bce56] text-lg transition">
+                                    <span>مشاهده اطلاعات</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script type="text/javascript" src="/Vendor/FontAwesome/all.min.js"></script>
     <script type="text/javascript" src="Vendor/TailwindCSS/tailwindcss.js"></script>
+    <script src="Vendor/Swiper.Js/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
 
 </body>
 </html>

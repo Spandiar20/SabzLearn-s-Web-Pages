@@ -159,3 +159,7 @@ i {
     height: 40%;
     background-color: rgba(43, 206, 86, 0.2);
 }
+
+.swiper-slid .courses-content__card-item:hover {
+    translate: unset;
+}
