@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Category.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="/Vendor/FontAwesome/all.min.css">
 </head>
@@ -185,25 +186,36 @@
 
     <!-- Main section begin -->
 
-    <main class="courses">
-        <div class="container">
-            <div class="courses__top flex">
-                <div class="courses__top-right">
-                    <div class="top-right__grid-btn">
-                        <i class="fas fa-windows"></i>
+    <main class="courses flex justify-center py-4 rounded-md items-center">
+        <div class="container px-[3%] my-[2rem] shadow-md w-[80%]">
+            <div class="courses__top flex w-full justify-between h-16 items-center relative">
+                <div class="courses__top-right flex gap-2">
+                    <div class="top-right__grid-btn top-right__btn--active bg-blue-500 w-8 h-8 flex items-center justify-center rounded-sm">
+                        <i class="fas fa-border-all"></i>
                     </div>
 
-                    <div class="top-right__flex-btn">
-                        <i class="fas fa-paragraph"></i>
+                    <div class="top-right__column-btn flex items-center justify-center w-8 h-8 border-solid border-[0.5px] border-[#dcdcdcdc] rounded-sm">
+                        <i class="fas fa-pager"></i>
                     </div>
 
                     <div class="top-right__sort-btn">
-                        <div>مرتب سازی پیش فرض</div>
-                        <i class="fas fa-arrow-down"></i>
+                        <span class="top-right__sort-btn flex items-center justify-center gap-2 border-[0.5px] border-[#dcdcdcdc] border-solid px-2 rounded-sm cursor-pointer hover:bg-blue-600 hover:text-white transition">
+                            <div class="text-lg">مرتب سازی پیش فرض</div>
+                            <i class="fas fa-angle-down"></i>
+                        </span>
+                        <ul class="top-right__sort-menu flex flex-col items-start bg-white px-3 transition mt-2 gap-2 border-[0.5px] border-b-blue border-solid">
+                            <li class="sort-menu__item sort-menu__item--active">مرتب سازی بر اساس پیش فرض</li>
+                            <li class="sort-menu__item">مرتب سازی بر اساس پیش محبوبیت</li>
+                            <li class="sort-menu__item">مرتب سازی بر اساس پیش امتیاز</li>
+                            <li class="sort-menu__item">مرتب سازی بر اساس تازه ترین </li>
+                            <li class="sort-menu__item">مرتب سازی بر اساس پیش ارزانترین</li>
+                            <li class="sort-menu__item">مرتب سازی بر اساس پیش گرانترین</li>
+                        </ul>
                     </div>
+                    
                 </div>
 
-                <div class="courses__top-left">
+                <div class="courses__top-left border-solid border-[0.5px] border-[#dcdcdcdc] px-2 py-1 flex items-center rounded-sm">
                     <input type="text" placeholder="جستجوی محصول..." class="top-left__input">
                     <i class="fas fa-magnifying-glass"></i>
                 </div>
