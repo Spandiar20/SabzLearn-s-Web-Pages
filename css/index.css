@@ -1,69 +1,7 @@
 @import './variables.css';
 @import './fonts.css';
-
-/* Default Styles begin here */
-
-html {
-    box-sizing: border-box;
-    font-size: 56.5%;
-}
-
-body {
-    line-height: 1.6;
-    font-family: var(--primary-font);
-    direction: rtl;
-}
-
-*,
-*::after,
-*::before {
-    outline: none;
-    box-sizing: inherit;
-}
-
-a {
-    text-decoration: none;
-    color: var(--dark-color);
-    transition: all 400ms ease;
-}
-
-a:hover {
-    color: #1e83f0;
-}
-
-i {
-    user-select: none;
-}
-
-/*Default Styles end here*/
-
-/* Nav-bar Styles begin here*/
-
-.top-bar {
-    color: var(--dark-color);
-}
-
-.top-bar__link {
-    padding: 0 0.5rem;
-}
-
-.top-bar__link {
-    padding: 0 0.3rem;
-}
-
-.top-bar__email,
-.top-bar__phone {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
-
-.top-bar__email-icon,
-.top-bar__phone-icon {
-    color: var(--primary-color);
-}
-
-/* Nav-bar Styles end here*/
+@import './Default.css';
+@import './TopBar.css';
 
 /* Header Styles begin here*/
 

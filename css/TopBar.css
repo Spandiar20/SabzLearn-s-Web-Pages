@@ -1,0 +1,23 @@
+.top-bar {
+    color: var(--dark-color);
+}
+
+.top-bar__link {
+    padding: 0 0.5rem;
+}
+
+.top-bar__link {
+    padding: 0 0.3rem;
+}
+
+.top-bar__email,
+.top-bar__phone {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.top-bar__email-icon,
+.top-bar__phone-icon {
+    color: var(--primary-color);
+}
