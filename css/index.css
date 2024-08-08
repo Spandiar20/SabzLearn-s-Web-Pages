@@ -160,6 +160,34 @@ i {
     background-color: rgba(43, 206, 86, 0.2);
 }
 
+/* Swiper-slide settings */
+
 .swiper-slid .courses-content__card-item:hover {
     translate: unset;
+}
+
+/* About-us section */
+
+.about-us__title {
+    color: #444446;
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+}
+
+.about-us__title::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(43, 206, 86, 0.2);
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+
+.about-us__color-box {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
